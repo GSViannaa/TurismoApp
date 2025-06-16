@@ -1,0 +1,17 @@
+﻿@page
+@model Agencia_De_Turismo_App.Pages.Log.IndexModel
+@{
+    ViewData["Title"] = "Log";
+}
+
+<h2>Simular Criação de Reserva</h2>
+
+<form method="post">
+    <button type="submit">Criar Reserva</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.MensagemFinal))
+{
+    <p><strong>Mensagem:</strong> @Model.MensagemFinal</p>
+    <p>Verificar o arquivo <code>wwwroot/logs.txt</code> para o log em arquivo</p>
+}

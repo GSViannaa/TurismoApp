@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Agencia_De_Turismo_App.props" />
+</Project>

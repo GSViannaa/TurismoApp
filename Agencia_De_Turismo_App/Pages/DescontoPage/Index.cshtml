@@ -1,0 +1,18 @@
+﻿@page
+@model Agencia_De_Turismo_App.Pages.DescontoPage.IndexModel
+@{
+    ViewData["Title"] = "Desconto";
+}
+
+<h2>Calcular Desconto de 10%</h2>
+
+<form method="post">
+    <label>Preço Da Diária:</label>
+    <input asp-for="PrecoOriginal" />
+    <button type="submit">Calcular</button>
+</form>
+
+@if (Model.PrecoComDesconto > 0)
+{
+    <p><strong>Valor com desconto:</strong> @Model.PrecoComDesconto.ToString("C")</p>
+}

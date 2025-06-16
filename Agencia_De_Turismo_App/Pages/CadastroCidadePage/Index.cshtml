@@ -1,0 +1,29 @@
+﻿@page
+@model Agencia_De_Turismo_App.Pages.CadastroCidadePage.IndexModel
+@{
+    ViewData["Title"] = "Cadastrar Cidade";
+}
+
+<h2>Nova Cidade</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Cidade.Nome"></label>
+        <input asp-for="Cidade.Nome" />
+        <span asp-validation-for="Cidade.Nome" class="text-danger"></span>
+    </div>
+
+    <div lass="form-group mt-2">
+        <label asp-for="Cidade.PaisDestinoId">País</label>
+        <select asp-for="Cidade.PaisDestinoId" asp-items="Model.ListaPaises" class="form-control">
+            <option value="">-- Selecione --</option>
+        </select>
+        <span asp-validation-for="Cidade.PaisDestinoId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Salvar</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

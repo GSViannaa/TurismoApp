@@ -13,9 +13,8 @@ namespace TurismoApp.Domain.models
         public DateTime DataInicio { get; set; }
         public int CapacidadeMaxima { get; set; }
 
-  
-        public ICollection<CidadeDestino> Cidades { get; } = new List<CidadeDestino>();
-        public ICollection<Reservas> Reservas { get; } = new List<Reservas>();
+        public ICollection<CidadeDestino> Cidades { get; set; } = new List<CidadeDestino>();
+        public ICollection<Reservas> Reservas { get; set; } = new List<Reservas>();
 
 
         public event Action<string>? CapacityReached;

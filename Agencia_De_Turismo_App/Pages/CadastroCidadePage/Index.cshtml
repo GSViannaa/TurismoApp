@@ -1,29 +1,36 @@
-﻿@page
-@model Agencia_De_Turismo_App.Pages.CadastroCidadePage.IndexModel
+@page
+@model Agencia_De_Turismo_App.Pages_CadastroCidadePage.IndexModel
+
 @{
-    ViewData["Title"] = "Cadastrar Cidade";
+    ViewData["Title"] = "Index";
 }
 
-<h2>Nova Cidade</h2>
+<h1>Index</h1>
 
-<form method="post">
-    <div class="form-group">
-        <label asp-for="Cidade.Nome"></label>
-        <input asp-for="Cidade.Nome" />
-        <span asp-validation-for="Cidade.Nome" class="text-danger"></span>
-    </div>
-
-    <div lass="form-group mt-2">
-        <label asp-for="Cidade.PaisDestinoId">País</label>
-        <select asp-for="Cidade.PaisDestinoId" asp-items="Model.ListaPaises" class="form-control">
-            <option value="">-- Selecione --</option>
-        </select>
-        <span asp-validation-for="Cidade.PaisDestinoId" class="text-danger"></span>
-    </div>
-
-    <button type="submit" class="btn btn-primary mt-3">Salvar</button>
-</form>
-
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CidadeDestino[0].Nome)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.CidadeDestino) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
 }
+    </tbody>
+</table>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u/RdglOUfDzCR4rwDgkLqxppGWlZB826aVTgaQCQErw=",
+  "Hash": "4BALKzywXw9xsqb4mjG+g6wY6/gxFEJndnzPA+6GnCs=",
   "Source": "Agencia_De_Turismo_App",
   "BasePath": "_content/Agencia_De_Turismo_App",
   "Mode": "Default",
@@ -99,6 +99,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\wwwroot\\Files\\nota_20250617_152305.txt",
+      "SourceId": "Agencia_De_Turismo_App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\wwwroot\\",
+      "BasePath": "_content/Agencia_De_Turismo_App",
+      "RelativePath": "Files/nota_20250617_152305#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lxkx79e1o0",
+      "Integrity": "x8yrMAsm2Xu7+9TLrvWCLtMi/ZDZPuP4taTwaGGbS44=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\nota_20250617_152305.txt"
+    },
+    {
+      "Identity": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\wwwroot\\Files\\nota_20250617_152314.txt",
+      "SourceId": "Agencia_De_Turismo_App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\wwwroot\\",
+      "BasePath": "_content/Agencia_De_Turismo_App",
+      "RelativePath": "Files/nota_20250617_152314#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ms0x375401",
+      "Integrity": "us4IyoQnWzz8bqqVmepFlGOrZtqjK//yOBH9auzQRvI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\nota_20250617_152314.txt"
+    },
+    {
+      "Identity": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\wwwroot\\Files\\nota_20250617_152319.txt",
+      "SourceId": "Agencia_De_Turismo_App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\wwwroot\\",
+      "BasePath": "_content/Agencia_De_Turismo_App",
+      "RelativePath": "Files/nota_20250617_152319#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mcwe465zyr",
+      "Integrity": "RgcNS/k0+w1LBtnixG40aUTjIkRJAKQ119mpXm10NfU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\nota_20250617_152319.txt"
     },
     {
       "Identity": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\wwwroot\\js\\site.js",
@@ -1364,7 +1427,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:24:47 GMT"
+          "Value": "Tue, 17 Jun 2025 18:58:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1409,7 +1472,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:24:47 GMT"
+          "Value": "Tue, 17 Jun 2025 18:58:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1454,7 +1517,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:24:47 GMT"
+          "Value": "Tue, 17 Jun 2025 18:58:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1491,7 +1554,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:24:47 GMT"
+          "Value": "Tue, 17 Jun 2025 18:58:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1666,6 +1729,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "Files/nota_20250617_152305.lxkx79e1o0.txt",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\wwwroot\\Files\\nota_20250617_152305.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x8yrMAsm2Xu7+9TLrvWCLtMi/ZDZPuP4taTwaGGbS44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 18:23:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lxkx79e1o0"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/nota_20250617_152305.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x8yrMAsm2Xu7+9TLrvWCLtMi/ZDZPuP4taTwaGGbS44="
+        }
+      ]
+    },
+    {
+      "Route": "Files/nota_20250617_152305.txt",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\wwwroot\\Files\\nota_20250617_152305.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x8yrMAsm2Xu7+9TLrvWCLtMi/ZDZPuP4taTwaGGbS44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 18:23:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x8yrMAsm2Xu7+9TLrvWCLtMi/ZDZPuP4taTwaGGbS44="
+        }
+      ]
+    },
+    {
+      "Route": "Files/nota_20250617_152314.ms0x375401.txt",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\wwwroot\\Files\\nota_20250617_152314.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"us4IyoQnWzz8bqqVmepFlGOrZtqjK//yOBH9auzQRvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 18:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ms0x375401"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/nota_20250617_152314.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-us4IyoQnWzz8bqqVmepFlGOrZtqjK//yOBH9auzQRvI="
+        }
+      ]
+    },
+    {
+      "Route": "Files/nota_20250617_152314.txt",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\wwwroot\\Files\\nota_20250617_152314.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"us4IyoQnWzz8bqqVmepFlGOrZtqjK//yOBH9auzQRvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 18:23:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-us4IyoQnWzz8bqqVmepFlGOrZtqjK//yOBH9auzQRvI="
+        }
+      ]
+    },
+    {
+      "Route": "Files/nota_20250617_152319.mcwe465zyr.txt",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\wwwroot\\Files\\nota_20250617_152319.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RgcNS/k0+w1LBtnixG40aUTjIkRJAKQ119mpXm10NfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 18:23:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mcwe465zyr"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/nota_20250617_152319.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RgcNS/k0+w1LBtnixG40aUTjIkRJAKQ119mpXm10NfU="
+        }
+      ]
+    },
+    {
+      "Route": "Files/nota_20250617_152319.txt",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\wwwroot\\Files\\nota_20250617_152319.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RgcNS/k0+w1LBtnixG40aUTjIkRJAKQ119mpXm10NfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 18:23:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RgcNS/k0+w1LBtnixG40aUTjIkRJAKQ119mpXm10NfU="
         }
       ]
     },

@@ -1,0 +1,38 @@
+﻿@page
+@model Agencia_De_Turismo_App.Pages.Notas.ViewNotesModel
+@{
+    ViewData["Title"] = "Notas";
+}
+
+<h2>Nova Anotação</h2>
+
+<form method="post">
+    <textarea asp-for="NovaNota" rows="5" cols="50" placeholder="Escreva aqui..."></textarea><br />
+    <button type="submit">Salvar Nota</button>
+</form>
+
+<hr />
+
+<h2>Notas Salvas</h2>
+@if (Model.ArquivosDisponiveis.Any())
+{
+    <ul>
+        @foreach (var arquivo in Model.ArquivosDisponiveis)
+        {
+            <li>
+                <a asp-page="ViewNotes" asp-route-ArquivoSelecionado="@arquivo">@arquivo</a>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>Nenhuma nota salva ainda.</p>
+}
+
+@if (!string.IsNullOrEmpty(Model.ConteudoArquivo))
+{
+    <hr />
+    <h3>Conteúdo de: @Model.ArquivoSelecionado</h3>
+    <pre>@Model.ConteudoArquivo</pre>
+}

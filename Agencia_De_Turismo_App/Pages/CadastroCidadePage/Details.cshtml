@@ -1,0 +1,29 @@
+@page
+@model Agencia_De_Turismo_App.Pages_CadastroCidadePage.DetailsModel
+
+@{
+    ViewData["Title"] = "Detalhes da Cidade";
+}
+
+<h2>Detalhes da Cidade</h2>
+
+<div>
+    <strong>Nome:</strong> @Model.CidadeDestino.Nome
+</div>
+
+<div>
+    <strong>ID:</strong> @Model.CidadeDestino.Id
+</div>
+
+@if (Model.CidadeDestino.PontosTuristicos.Any())
+{
+    <div>
+        <strong>Pontos Turísticos:</strong>
+        <ul>
+            @foreach (var ponto in Model.CidadeDestino.PontosTuristicos)
+            {
+                <li>@ponto.Nome</li>
+            }
+        </ul>
+    </div>
+}

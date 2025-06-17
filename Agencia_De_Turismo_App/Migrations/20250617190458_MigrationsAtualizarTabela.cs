@@ -5,7 +5,7 @@
 namespace Agencia_De_Turismo_App.Migrations
 {
     /// <inheritdoc />
-    public partial class PaisesDestinoCreate : Migration
+    public partial class MigrationsAtualizarTabela : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

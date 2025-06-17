@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Agencia_De_Turismo_App.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250616201441_PaisesDestinoCreate")]
-    partial class PaisesDestinoCreate
+    [Migration("20250617190458_MigrationsAtualizarTabela")]
+    partial class MigrationsAtualizarTabela
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -188,11 +188,13 @@ namespace Agencia_De_Turismo_App.Migrations
 
             modelBuilder.Entity("TurismoApp.Domain.models.CidadeDestino", b =>
                 {
-                    b.HasOne("TurismoApp.Domain.models.PaisDestino", null)
+                    b.HasOne("TurismoApp.Domain.models.PaisDestino", "PaisDestino")
                         .WithMany("Cidades")
                         .HasForeignKey("PaisDestinoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("PaisDestino");
                 });
 
             modelBuilder.Entity("TurismoApp.Domain.models.PontoTuristico", b =>

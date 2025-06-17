@@ -3,42 +3,85 @@
   "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\cadastropaispage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\cadastropaispage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\cadastropaispage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\cadastropaispage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\cadastropaispage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\cadastropaispage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\cadastropaispage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\cadastropaispage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\cadastrocidadepage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\cadastrocidadepage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AgenciaDeTurismoDb/True/SqlTable/dbo.CidadesDestino.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\models\\pontoturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\models\\pontoturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\models\\pacoteturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\models\\pacoteturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\models\\paisdestino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\models\\paisdestino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\models\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\models\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\models\\cidadedestino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\models\\cidadedestino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\cadastrocidadepage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\cadastrocidadepage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\cadastrocidadepage\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\cadastrocidadepage\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\cadastrocidadepage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\cadastrocidadepage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\cadastrocidadepage\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\cadastrocidadepage\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\cadastrocidadepage\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\cadastrocidadepage\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\trabalhos_csharp\\agencia_de_turismo_app\\agencia_de_turismo_app\\pages\\cadastrocidadepage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E33689-2F3A-48FC-8521-07B9A05D0966}|Agencia_De_Turismo_App\\Agencia_De_Turismo_App.csproj|solutionrelative:agencia_de_turismo_app\\pages\\cadastrocidadepage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 208,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,84 +94,224 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Index.cshtml",
-              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Index.cshtml",
-              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T20:08:26.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Edit.cshtml",
-              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T20:08:24.956Z",
+              "WhenOpened": "2025-06-17T18:57:06.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Delete.cshtml",
-              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Delete.cshtml",
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\Index.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T20:08:23.367Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:57:02.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Create.cshtml",
-              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Create.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Create.cshtml",
-              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\CadastroPaisPage\\Create.cshtml",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T20:08:17.448Z",
+              "WhenOpened": "2025-06-17T18:56:59.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Index.cshtml",
-              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Index.cshtml",
-              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T19:58:27.255Z",
+              "Title": "dbo.CidadesDestino [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AgenciaDeTurismoDb/True/SqlTable/dbo.CidadesDestino.sql",
+              "ToolTip": "dbo.CidadesDestino [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-17T18:53:46.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "PontoTuristico.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Models\\PontoTuristico.cs",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Models\\PontoTuristico.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Models\\PontoTuristico.cs",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Models\\PontoTuristico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:49:27.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaisDestino.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Models\\PaisDestino.cs",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Models\\PaisDestino.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Models\\PaisDestino.cs",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Models\\PaisDestino.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:48:48.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Reservas.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Models\\Reservas.cs",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Models\\Reservas.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Models\\Reservas.cs",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Models\\Reservas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:42:23.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PacoteTuristico.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Models\\PacoteTuristico.cs",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Models\\PacoteTuristico.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Models\\PacoteTuristico.cs",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Models\\PacoteTuristico.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:36:24.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Models\\Cliente.cs",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:36:19.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CidadeDestino.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Models\\CidadeDestino.cs",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Models\\CidadeDestino.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Models\\CidadeDestino.cs",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Models\\CidadeDestino.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:35:35.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Details.cshtml",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Details.cshtml",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Details.cshtml",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T17:56:01.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Details.cshtml.cs",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Details.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T17:55:09.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Edit.cshtml",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T17:54:41.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Create.cshtml",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Create.cshtml",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Create.cshtml",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T17:54:30.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Edit.cshtml.cs",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T17:53:23.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Create.cshtml.cs",
+              "RelativeToolTip": "Agencia_De_Turismo_App\\Pages\\CadastroCidadePage\\Create.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T17:44:23.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Agencia_De_Turismo_App\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwDkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T19:47:45.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Trabalhos_CSharp\\Agencia_De_Turismo_App\\Agencia_De_Turismo_App\\Program.cs",
               "RelativeDocumentMoniker": "Agencia_De_Turismo_App\\Program.cs",

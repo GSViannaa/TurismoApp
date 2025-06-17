@@ -185,11 +185,13 @@ namespace Agencia_De_Turismo_App.Migrations
 
             modelBuilder.Entity("TurismoApp.Domain.models.CidadeDestino", b =>
                 {
-                    b.HasOne("TurismoApp.Domain.models.PaisDestino", null)
+                    b.HasOne("TurismoApp.Domain.models.PaisDestino", "PaisDestino")
                         .WithMany("Cidades")
                         .HasForeignKey("PaisDestinoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("PaisDestino");
                 });
 
             modelBuilder.Entity("TurismoApp.Domain.models.PontoTuristico", b =>

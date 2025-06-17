@@ -1,5 +1,8 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Files\nota_20250617_152305.txt
+wwwroot\Files\nota_20250617_152314.txt
+wwwroot\Files\nota_20250617_152319.txt
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

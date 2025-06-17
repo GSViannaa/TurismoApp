@@ -12,14 +12,16 @@ namespace TurismoApp.Domain.models
 
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "O nome é obrigatório.")]
-        [MinLength(3, ErrorMessage = "Mínimo de 3 caracteres.")]
+        [Required]
+        [MinLength(3)]
         public string Nome { get; set; } = null!;
 
-        [Required(ErrorMessage = "Selecione um país.")]
+        [Required]
         public int PaisDestinoId { get; set; }
+        public PaisDestino PaisDestino { get; set; } = null!;
 
-        public ICollection<PontoTuristico> PontosTuristicos { get; } = new List<PontoTuristico>();
-        public ICollection<PacoteTuristico> Pacotes { get; } = new List<PacoteTuristico>();
+        public ICollection<PontoTuristico> PontosTuristicos { get; set; } = new List<PontoTuristico>();
+
+        public ICollection<PacoteTuristico> Pacotes { get; set; } = new List<PacoteTuristico>();
     }
 }

@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Agencia_De_Turismo_App.4q4x20zny3.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4q4x20zny3"},{"Name":"integrity","Value":"sha256-1DfAoRoD6KSwPNP49zBIPmTY3eoNvBmV6Td9Nb9nWaU="},{"Name":"label","Value":"_content/Agencia_De_Turismo_App/Agencia_De_Turismo_App.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221DfAoRoD6KSwPNP49zBIPmTY3eoNvBmV6Td9Nb9nWaU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 19:24:47 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221DfAoRoD6KSwPNP49zBIPmTY3eoNvBmV6Td9Nb9nWaU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 18:58:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Agencia_De_Turismo_App/Agencia_De_Turismo_App.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Agencia_De_Turismo_App.4q4x20zny3.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1DfAoRoD6KSwPNP49zBIPmTY3eoNvBmV6Td9Nb9nWaU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221DfAoRoD6KSwPNP49zBIPmTY3eoNvBmV6Td9Nb9nWaU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 19:24:47 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221DfAoRoD6KSwPNP49zBIPmTY3eoNvBmV6Td9Nb9nWaU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 18:58:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Agencia_De_Turismo_App/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
@@ -35,6 +35,42 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 18:01:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Agencia_De_Turismo_App/Files/nota_20250617_152305.lxkx79e1o0.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\nota_20250617_152305.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lxkx79e1o0"},{"Name":"integrity","Value":"sha256-x8yrMAsm2Xu7\u002B9TLrvWCLtMi/ZDZPuP4taTwaGGbS44="},{"Name":"label","Value":"_content/Agencia_De_Turismo_App/Files/nota_20250617_152305.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022x8yrMAsm2Xu7\u002B9TLrvWCLtMi/ZDZPuP4taTwaGGbS44=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 18:23:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Agencia_De_Turismo_App/Files/nota_20250617_152305.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\nota_20250617_152305.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-x8yrMAsm2Xu7\u002B9TLrvWCLtMi/ZDZPuP4taTwaGGbS44="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022x8yrMAsm2Xu7\u002B9TLrvWCLtMi/ZDZPuP4taTwaGGbS44=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 18:23:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Agencia_De_Turismo_App/Files/nota_20250617_152314.ms0x375401.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\nota_20250617_152314.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ms0x375401"},{"Name":"integrity","Value":"sha256-us4IyoQnWzz8bqqVmepFlGOrZtqjK//yOBH9auzQRvI="},{"Name":"label","Value":"_content/Agencia_De_Turismo_App/Files/nota_20250617_152314.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022us4IyoQnWzz8bqqVmepFlGOrZtqjK//yOBH9auzQRvI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 18:23:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Agencia_De_Turismo_App/Files/nota_20250617_152314.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\nota_20250617_152314.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-us4IyoQnWzz8bqqVmepFlGOrZtqjK//yOBH9auzQRvI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022us4IyoQnWzz8bqqVmepFlGOrZtqjK//yOBH9auzQRvI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 18:23:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Agencia_De_Turismo_App/Files/nota_20250617_152319.mcwe465zyr.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\nota_20250617_152319.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mcwe465zyr"},{"Name":"integrity","Value":"sha256-RgcNS/k0\u002Bw1LBtnixG40aUTjIkRJAKQ119mpXm10NfU="},{"Name":"label","Value":"_content/Agencia_De_Turismo_App/Files/nota_20250617_152319.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022RgcNS/k0\u002Bw1LBtnixG40aUTjIkRJAKQ119mpXm10NfU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 18:23:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Agencia_De_Turismo_App/Files/nota_20250617_152319.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\nota_20250617_152319.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RgcNS/k0\u002Bw1LBtnixG40aUTjIkRJAKQ119mpXm10NfU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022RgcNS/k0\u002Bw1LBtnixG40aUTjIkRJAKQ119mpXm10NfU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 18:23:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Agencia_De_Turismo_App/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

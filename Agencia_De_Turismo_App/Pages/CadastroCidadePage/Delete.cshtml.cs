@@ -29,7 +29,7 @@ namespace Agencia_De_Turismo_App.Pages_CadastroCidadePage
                 return NotFound();
             }
 
-            var cidadedestino = await _context.CidadesDestino.FirstOrDefaultAsync(m => m.Id == id);
+            var cidadedestino = await _context.CidadeDestino.FirstOrDefaultAsync(m => m.Id == id);
 
             if (cidadedestino is not null)
             {
@@ -48,11 +48,11 @@ namespace Agencia_De_Turismo_App.Pages_CadastroCidadePage
                 return NotFound();
             }
 
-            var cidadedestino = await _context.CidadesDestino.FindAsync(id);
+            var cidadedestino = await _context.CidadeDestino.FindAsync(id);
             if (cidadedestino != null)
             {
                 CidadeDestino = cidadedestino;
-                _context.CidadesDestino.Remove(CidadeDestino);
+                _context.CidadeDestino.Remove(CidadeDestino);
                 await _context.SaveChangesAsync();
             }
 

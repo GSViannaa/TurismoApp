@@ -1,36 +1,43 @@
 @page
-@model Agencia_De_Turismo_App.Pages_CadastroCidadePage.IndexModel
-
+@model Agencia_De_Turismo_App.Pages.CadastroCidadePage.IndexModel
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Cidades Cadastradas";
 }
 
-<h1>Index</h1>
+<h2>Cidades Cadastradas</h2>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create" class="btn btn-success">Nova Cidade</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.CidadeDestino[0].Nome)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.CidadeDestino) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
+
+@if (Model.CidadeDestino != null && Model.CidadeDestino.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Nome da Cidade</th>
+                <th>País</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.CidadeDestino)
+            {
+                <tr>
+                    <td>@item.Nome</td>
+                    <td>@item.PaisDestino?.Nome</td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Editar</a>
+                        <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Detalhes</a>
+                        <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Excluir</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
-    </tbody>
-</table>
+else
+{
+    <p>Nenhuma cidade cadastrada ainda.</p>
+}
+

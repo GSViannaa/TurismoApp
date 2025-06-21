@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Agencia_De_Turismo_App.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250617190458_MigrationsAtualizarTabela")]
-    partial class MigrationsAtualizarTabela
+    [Migration("20250621125020_NomeDaMigration")]
+    partial class NomeDaMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -59,7 +59,7 @@ namespace Agencia_De_Turismo_App.Migrations
 
                     b.HasIndex("PaisDestinoId");
 
-                    b.ToTable("CidadesDestino");
+                    b.ToTable("CidadeDestino", (string)null);
                 });
 
             modelBuilder.Entity("TurismoApp.Domain.models.Cliente", b =>
@@ -80,7 +80,7 @@ namespace Agencia_De_Turismo_App.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Clientes");
+                    b.ToTable("Cliente", (string)null);
                 });
 
             modelBuilder.Entity("TurismoApp.Domain.models.PacoteTuristico", b =>
@@ -103,7 +103,7 @@ namespace Agencia_De_Turismo_App.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("PacotesTuristicos");
+                    b.ToTable("PacoteTuristico", (string)null);
                 });
 
             modelBuilder.Entity("TurismoApp.Domain.models.PaisDestino", b =>
@@ -114,13 +114,16 @@ namespace Agencia_De_Turismo_App.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("PaisesDestino");
+                    b.ToTable("PaisDestino", (string)null);
                 });
 
             modelBuilder.Entity("TurismoApp.Domain.models.PontoTuristico", b =>
@@ -142,7 +145,7 @@ namespace Agencia_De_Turismo_App.Migrations
 
                     b.HasIndex("CidadeDestinoId");
 
-                    b.ToTable("PontosTuristicos");
+                    b.ToTable("PontoTuristico", (string)null);
                 });
 
             modelBuilder.Entity("TurismoApp.Domain.models.Reservas", b =>
@@ -168,7 +171,7 @@ namespace Agencia_De_Turismo_App.Migrations
 
                     b.HasIndex("PacoteTuristicoId");
 
-                    b.ToTable("Reservas");
+                    b.ToTable("Reserva", (string)null);
                 });
 
             modelBuilder.Entity("CidadeDestinoPacoteTuristico", b =>

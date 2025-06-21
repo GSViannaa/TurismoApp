@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Agencia_De_Turismo_App.Data;
 using TurismoApp.Domain.models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Agencia_De_Turismo_App.Pages_CadastroPaisPage
 {
+    [Authorize]
     public class DeleteModel : PageModel
     {
         private readonly Agencia_De_Turismo_App.Data.AppDbContext _context;
@@ -24,35 +26,20 @@ namespace Agencia_De_Turismo_App.Pages_CadastroPaisPage
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            PaisDestino = await _context.PaisesDestino
+                 .Where(p => !p.IsDeleted)
+                 .ToListAsync();
 
-            var paisdestino = await _context.PaisesDestino.FirstOrDefaultAsync(m => m.Id == id);
-
-            if (paisdestino is not null)
-            {
-                PaisDestino = paisdestino;
-
-                return Page();
-            }
-
-            return NotFound();
+            return Page();
         }
 
         public async Task<IActionResult> OnPostAsync(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            var pais = await _context.PaisesDestino.FindAsync(id);
 
-            var paisdestino = await _context.PaisesDestino.FindAsync(id);
-            if (paisdestino != null)
+            if (pais != null)
             {
-                PaisDestino = paisdestino;
-                _context.PaisesDestino.Remove(PaisDestino);
+                pais.IsDeleted = true;
                 await _context.SaveChangesAsync();
             }
 

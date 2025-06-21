@@ -1,29 +1,24 @@
 @page
-@model Agencia_De_Turismo_App.Pages_CadastroCidadePage.DetailsModel
-
+@model Agencia_De_Turismo_App.Pages.CadastroCidadePage.DetailsModel
 @{
     ViewData["Title"] = "Detalhes da Cidade";
 }
 
 <h2>Detalhes da Cidade</h2>
 
-<div>
-    <strong>Nome:</strong> @Model.CidadeDestino.Nome
-</div>
+<div class="row">
+    <div class="col-md-8">
+        <dl class="row">
+            <dt class="col-sm-3">Nome da Cidade</dt>
+            <dd class="col-sm-9">@Model.CidadeDestino.Nome</dd>
 
-<div>
-    <strong>ID:</strong> @Model.CidadeDestino.Id
-</div>
+            <dt class="col-sm-3">País</dt>
+            <dd class="col-sm-9">@Model.CidadeDestino.PaisDestino?.Nome</dd>
 
-@if (Model.CidadeDestino.PontosTuristicos.Any())
-{
-    <div>
-        <strong>Pontos Turísticos:</strong>
-        <ul>
-            @foreach (var ponto in Model.CidadeDestino.PontosTuristicos)
-            {
-                <li>@ponto.Nome</li>
-            }
-        </ul>
+           
+        </dl>
+
+        <a asp-page="./Edit" asp-route-id="@Model.CidadeDestino.Id" class="btn btn-primary">Editar</a>
+        <a asp-page="./Index" class="btn btn-secondary">Voltar</a>
     </div>
-}
+</div>

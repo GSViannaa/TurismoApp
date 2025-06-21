@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Agencia_De_Turismo_App.Migrations
 {
     /// <inheritdoc />
-    public partial class finalCreate : Migration
+    public partial class EstruturaCompleta : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Clientes",
+                name: "Cliente",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -22,11 +22,11 @@ namespace Agencia_De_Turismo_App.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Clientes", x => x.Id);
+                    table.PrimaryKey("PK_Cliente", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "PacotesTuristicos",
+                name: "PacoteTuristico",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -37,11 +37,11 @@ namespace Agencia_De_Turismo_App.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_PacotesTuristicos", x => x.Id);
+                    table.PrimaryKey("PK_PacoteTuristico", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "PaisesDestino",
+                name: "PaisDestino",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -50,11 +50,11 @@ namespace Agencia_De_Turismo_App.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_PaisesDestino", x => x.Id);
+                    table.PrimaryKey("PK_PaisDestino", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Reservas",
+                name: "Reserva",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -65,23 +65,23 @@ namespace Agencia_De_Turismo_App.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Reservas", x => x.Id);
+                    table.PrimaryKey("PK_Reserva", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Reservas_Clientes_ClienteId",
+                        name: "FK_Reserva_Cliente_ClienteId",
                         column: x => x.ClienteId,
-                        principalTable: "Clientes",
+                        principalTable: "Cliente",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Reservas_PacotesTuristicos_PacoteTuristicoId",
+                        name: "FK_Reserva_PacoteTuristico_PacoteTuristicoId",
                         column: x => x.PacoteTuristicoId,
-                        principalTable: "PacotesTuristicos",
+                        principalTable: "PacoteTuristico",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "CidadesDestino",
+                name: "CidadeDestino",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -91,11 +91,11 @@ namespace Agencia_De_Turismo_App.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_CidadesDestino", x => x.Id);
+                    table.PrimaryKey("PK_CidadeDestino", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_CidadesDestino_PaisesDestino_PaisDestinoId",
+                        name: "FK_CidadeDestino_PaisDestino_PaisDestinoId",
                         column: x => x.PaisDestinoId,
-                        principalTable: "PaisesDestino",
+                        principalTable: "PaisDestino",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -111,21 +111,21 @@ namespace Agencia_De_Turismo_App.Migrations
                 {
                     table.PrimaryKey("PK_CidadeDestinoPacoteTuristico", x => new { x.CidadesId, x.PacotesId });
                     table.ForeignKey(
-                        name: "FK_CidadeDestinoPacoteTuristico_CidadesDestino_CidadesId",
+                        name: "FK_CidadeDestinoPacoteTuristico_CidadeDestino_CidadesId",
                         column: x => x.CidadesId,
-                        principalTable: "CidadesDestino",
+                        principalTable: "CidadeDestino",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_CidadeDestinoPacoteTuristico_PacotesTuristicos_PacotesId",
+                        name: "FK_CidadeDestinoPacoteTuristico_PacoteTuristico_PacotesId",
                         column: x => x.PacotesId,
-                        principalTable: "PacotesTuristicos",
+                        principalTable: "PacoteTuristico",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "PontosTuristicos",
+                name: "PontoTuristico",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -135,14 +135,19 @@ namespace Agencia_De_Turismo_App.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_PontosTuristicos", x => x.Id);
+                    table.PrimaryKey("PK_PontoTuristico", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_PontosTuristicos_CidadesDestino_CidadeDestinoId",
+                        name: "FK_PontoTuristico_CidadeDestino_CidadeDestinoId",
                         column: x => x.CidadeDestinoId,
-                        principalTable: "CidadesDestino",
+                        principalTable: "CidadeDestino",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_CidadeDestino_PaisDestinoId",
+                table: "CidadeDestino",
+                column: "PaisDestinoId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_CidadeDestinoPacoteTuristico_PacotesId",
@@ -150,23 +155,18 @@ namespace Agencia_De_Turismo_App.Migrations
                 column: "PacotesId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_CidadesDestino_PaisDestinoId",
-                table: "CidadesDestino",
-                column: "PaisDestinoId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_PontosTuristicos_CidadeDestinoId",
-                table: "PontosTuristicos",
+                name: "IX_PontoTuristico_CidadeDestinoId",
+                table: "PontoTuristico",
                 column: "CidadeDestinoId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Reservas_ClienteId",
-                table: "Reservas",
+                name: "IX_Reserva_ClienteId",
+                table: "Reserva",
                 column: "ClienteId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Reservas_PacoteTuristicoId",
-                table: "Reservas",
+                name: "IX_Reserva_PacoteTuristicoId",
+                table: "Reserva",
                 column: "PacoteTuristicoId");
         }
 
@@ -177,22 +177,22 @@ namespace Agencia_De_Turismo_App.Migrations
                 name: "CidadeDestinoPacoteTuristico");
 
             migrationBuilder.DropTable(
-                name: "PontosTuristicos");
+                name: "PontoTuristico");
 
             migrationBuilder.DropTable(
-                name: "Reservas");
+                name: "Reserva");
 
             migrationBuilder.DropTable(
-                name: "CidadesDestino");
+                name: "CidadeDestino");
 
             migrationBuilder.DropTable(
-                name: "Clientes");
+                name: "Cliente");
 
             migrationBuilder.DropTable(
-                name: "PacotesTuristicos");
+                name: "PacoteTuristico");
 
             migrationBuilder.DropTable(
-                name: "PaisesDestino");
+                name: "PaisDestino");
         }
     }
 }

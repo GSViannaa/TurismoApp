@@ -32,7 +32,7 @@ namespace Agencia_De_Turismo_App.Pages_CadastroCidadePage
                 return NotFound();
             }
 
-            var cidadedestino =  await _context.CidadesDestino.FirstOrDefaultAsync(m => m.Id == id);
+            var cidadedestino =  await _context.CidadeDestino.FirstOrDefaultAsync(m => m.Id == id);
             if (cidadedestino == null)
             {
                 return NotFound();
@@ -75,7 +75,7 @@ namespace Agencia_De_Turismo_App.Pages_CadastroCidadePage
 
         private bool CidadeDestinoExists(int id)
         {
-            return _context.CidadesDestino.Any(e => e.Id == id);
+            return _context.CidadeDestino.Any(e => e.Id == id);
         }
     }
 }

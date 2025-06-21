@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Agencia_De_Turismo_App.Data;
 using TurismoApp.Domain.models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Agencia_De_Turismo_App.Pages_CadastroPaisPage
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         private readonly Agencia_De_Turismo_App.Data.AppDbContext _context;

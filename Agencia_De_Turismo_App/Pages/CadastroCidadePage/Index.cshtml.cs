@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Agencia_De_Turismo_App.Data;
 using TurismoApp.Domain.models;
 
-namespace Agencia_De_Turismo_App.Pages_CadastroCidadePage
+namespace Agencia_De_Turismo_App.Pages.CadastroCidadePage
 {
     public class IndexModel : PageModel
     {
@@ -23,7 +23,9 @@ namespace Agencia_De_Turismo_App.Pages_CadastroCidadePage
 
         public async Task OnGetAsync()
         {
-            CidadeDestino = await _context.CidadesDestino.ToListAsync();
+            CidadeDestino = await _context.CidadeDestino
+           .Include(c => c.PaisDestino)
+           .ToListAsync();
         }
     }
 }

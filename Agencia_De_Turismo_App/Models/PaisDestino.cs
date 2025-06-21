@@ -16,5 +16,12 @@ namespace TurismoApp.Domain.models
         public string Nome { get; set; } = null!;
 
         public ICollection<CidadeDestino> Cidades { get; } = new List<CidadeDestino>();
+
+        public bool IsDeleted { get; set; } = false;
+
+        public static implicit operator PaisDestino(List<PaisDestino> v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

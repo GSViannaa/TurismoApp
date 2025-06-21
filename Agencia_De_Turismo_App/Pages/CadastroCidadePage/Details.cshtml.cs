@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Agencia_De_Turismo_App.Data;
 using TurismoApp.Domain.models;
 
-namespace Agencia_De_Turismo_App.Pages_CadastroCidadePage
+namespace Agencia_De_Turismo_App.Pages.CadastroCidadePage
 {
     public class DetailsModel : PageModel
     {
@@ -23,7 +23,7 @@ namespace Agencia_De_Turismo_App.Pages_CadastroCidadePage
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            CidadeDestino = await _context.CidadesDestino
+            CidadeDestino = await _context.CidadeDestino
                  .Include(c => c.Pacotes)
                     .Include(c => c.PontosTuristicos)
                     .FirstOrDefaultAsync(m => m.Id == id);
@@ -33,7 +33,7 @@ namespace Agencia_De_Turismo_App.Pages_CadastroCidadePage
                 return NotFound();
             }
 
-            var cidadedestino = await _context.CidadesDestino.FirstOrDefaultAsync(m => m.Id == id);
+            var cidadedestino = await _context.CidadeDestino.FirstOrDefaultAsync(m => m.Id == id);
 
             if (cidadedestino is not null)
             {

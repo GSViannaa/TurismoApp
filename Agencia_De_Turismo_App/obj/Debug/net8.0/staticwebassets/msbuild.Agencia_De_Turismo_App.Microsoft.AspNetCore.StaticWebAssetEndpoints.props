@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Agencia_De_Turismo_App.4q4x20zny3.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4q4x20zny3"},{"Name":"integrity","Value":"sha256-1DfAoRoD6KSwPNP49zBIPmTY3eoNvBmV6Td9Nb9nWaU="},{"Name":"label","Value":"_content/Agencia_De_Turismo_App/Agencia_De_Turismo_App.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221DfAoRoD6KSwPNP49zBIPmTY3eoNvBmV6Td9Nb9nWaU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 18:58:39 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221DfAoRoD6KSwPNP49zBIPmTY3eoNvBmV6Td9Nb9nWaU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 22:53:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Agencia_De_Turismo_App/Agencia_De_Turismo_App.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Agencia_De_Turismo_App.4q4x20zny3.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1DfAoRoD6KSwPNP49zBIPmTY3eoNvBmV6Td9Nb9nWaU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221DfAoRoD6KSwPNP49zBIPmTY3eoNvBmV6Td9Nb9nWaU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 18:58:39 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221DfAoRoD6KSwPNP49zBIPmTY3eoNvBmV6Td9Nb9nWaU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 22:53:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Agencia_De_Turismo_App/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

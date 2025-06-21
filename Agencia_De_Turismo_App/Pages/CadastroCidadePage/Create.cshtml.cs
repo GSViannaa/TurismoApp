@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Agencia_De_Turismo_App.Data;
 using TurismoApp.Domain.models;
 
-namespace Agencia_De_Turismo_App.Pages_CadastroCidadePage
+namespace Agencia_De_Turismo_App.Pages.CadastroCidadePage
 {
     public class CreateModel : PageModel
     {
@@ -39,7 +39,7 @@ namespace Agencia_De_Turismo_App.Pages_CadastroCidadePage
             if (!ModelState.IsValid) return Page();
             
 
-            _context.CidadesDestino.Add(CidadeDestino);
+            _context.CidadeDestino.Add(CidadeDestino);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");
